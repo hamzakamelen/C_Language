@@ -224,7 +224,6 @@ do
     }
     n++;
 } while (n <= 500);
-
 // --------------------------
 /*Task 8: Write a program to enter any number and calculate its factorial using do-while.*/
 int factorial, i = 1;
