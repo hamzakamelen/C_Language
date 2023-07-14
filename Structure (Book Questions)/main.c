@@ -18,7 +18,6 @@ printf("%f",x2.real);
 
 //Combine Upper Both Question
 
-
 struct complex{
     float real;
     float imaginary;
