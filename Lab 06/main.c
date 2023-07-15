@@ -264,9 +264,8 @@ for(i;i<=50;i++){
     {
             printf("\n%d", i);
             printf("\n%d", i);
-        }
-        i++;
-    } while (i <= 50);
+                i++;
+        }while (i <= 50);
 
     // Task06(3): Print the following series: Fibonacci series
     // 3.	0,1,1,2,3,5,8,...100
@@ -325,4 +324,4 @@ for(i;i<=50;i++){
         i++;
     } while (i <= n);
     return 0;
-}
+    }
