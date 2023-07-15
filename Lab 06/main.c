@@ -239,38 +239,21 @@ int main()
     // 2.  1,2,2,3,3,4,4,5,...50
     
     //======From For Loop======
-    int i = 1;
-    printf("%d", i);
-    i++;
-    for (i; i <= 50; i++)
-    {
-        if (i % 2 == 0)
-        {
-            printf("\n%d ", i);
-            printf("\n%d ", i);
-        }
-        else
-        {
-            printf("\n%d", i);
-            printf("\n%d", i);
-        }
-    }
+   int i=1;
+printf("%d,",i);
+i++;
+for(i;i<=50;i++){
+    printf("%d,",i);
+    printf("%d,",i);
+}
     //======From While Loop======
     int i = 1;
     printf("%d", i);
     i++;
     while (i <= 50)
     {
-        if (i % 2 == 0)
-        {
-            printf("\n%d ", i);
-            printf("\n%d ", i);
-        }
-        else
-        {
             printf("\n%d", i);
             printf("\n%d", i);
-        }
         i++;
     }
     //======Do While Loop======
@@ -279,13 +262,6 @@ int main()
     i++;
     do
     {
-        if (i % 2 == 0)
-        {
-            printf("\n%d ", i);
-            printf("\n%d ", i);
-        }
-        else
-        {
             printf("\n%d", i);
             printf("\n%d", i);
         }
