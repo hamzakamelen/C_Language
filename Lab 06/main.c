@@ -170,7 +170,15 @@ int main()
 
     // Task:05 Write a Series of first 50 odd and even numbers
     //======From For Loop======
-
+    for(i=1;i<=50;i++){
+        if (i % 2 == 0)
+        {
+            printf("\nThis number is even %d", i);
+        }else{
+            printf("\nThis number is odd %d", i);
+        }
+        
+    }
     //======From While Loop======
     int i = 1;
     while (i != 50)
