@@ -144,7 +144,7 @@ do
         printf("%d is a Leap Year\n", year);
     }
     year++;
-} while (i <= 2015);
+} while (year <= 2015);
 
 /*Task 6: Write a program to output a table of values of the integers starting at 1 and their squares. Label the table at the top of the columns. For example, your output might look like this:
 
@@ -230,6 +230,7 @@ int factorial, i = 1;
 printf("Please Enter a Factorial Number ");
 scanf("%d", &factorial);
 int given = factorial;
+factorial = 1;
 do
 {
     factorial *= i;
