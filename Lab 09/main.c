@@ -3,7 +3,7 @@
 
 int main()
 {
-//=====LAB 09=========
+//=========== LAB 09 ==============
 //Task 01: Write a program that will inert 10 int in array and print in new lines
 int arr[10],i;
 printf("Please Enter 10 Numbers \n");
@@ -26,7 +26,7 @@ for(i=0;i<10;i++){
         printf("%d",arr[h]);
     }
 
-// Task 3: Write a program that will find largest and smallest number
+// Task 3: Write a program that will find largest and smallest number from Array
 int a[5]={1,2,5,9,3};
 int min,max;
 min=a[1];
@@ -52,6 +52,7 @@ for(i=0;i<10;i++){
 avg=sum/i;
 printf("Average: %d\nSum: %d",avg,sum);
 
+//Array Reverse 
 /*Write a program to create two character arrays of same length and
 copy the content of one array into another in reverse order.*/
 char First[5]={'H','A','M','Z','A'};
@@ -105,4 +106,28 @@ for(h=0;h<5;h++){
 }
 
     return 0;
+}
+
+
+//------ Array Delete*-----------
+//declaration
+int arr[5],i,deleteIndex;
+for(i=0;i<5;i++){
+    printf("Enter %d value of Array ",i+1);
+    scanf("%d",&arr[i]);
+}
+printf("Array Created Successfully\nPlease Write the value which you want to delete");
+scanf("%d",&deleteIndex);
+// Check if the index is valid
+ if (deleteIndex < 0 || deleteIndex >= 5) {
+        printf("Invalid index. Please enter a valid index within 0 to %d.\n", 5 - 1);
+        return 1; // Return 1 to indicate an error
+    }
+//delete||Rewrite value
+for(i=deleteIndex;i<5;i++){
+    arr[i]=arr[i+1];
+}
+//Print array
+for(i=0;i<4;i++){
+    printf("%d",arr[i]);
 }
