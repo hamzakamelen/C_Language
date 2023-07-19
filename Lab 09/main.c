@@ -105,10 +105,6 @@ for(h=0;h<5;h++){
     printf("\n%d",arr[h]);
 }
 
-    return 0;
-}
-
-
 //------ Array Delete*-----------
 //declaration
 int arr[5],i,deleteIndex;
@@ -130,4 +126,6 @@ for(i=deleteIndex;i<5;i++){
 //Print array
 for(i=0;i<4;i++){
     printf("%d",arr[i]);
+}
+    return 0;
 }
