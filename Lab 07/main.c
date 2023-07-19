@@ -58,7 +58,7 @@ int main()
     *****
     *****
     *****
-    ******/
+    ***** */
     // From For Loop
     int rows, i, j;
     printf("Enter Rows: ");
