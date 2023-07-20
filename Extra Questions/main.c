@@ -26,7 +26,7 @@ for(i=0;i<4;i++){
 
 }
 
-//String Reverse
+//===========String Reverse=========
 #include <stdio.h>
 #include <string.h>
 
@@ -58,6 +58,36 @@ int main() {
     reverseString(str);
 
     printf("Reversed string: %s\n", str);
+
+    return 0;
+}
+
+//======== Guessing Game =======
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int number, guess, attempts;
+    srand(time(0));
+    number = rand() % 100 + 1;  // Generate a random number between 1 and 100
+
+    printf("Welcome to the Guessing Game!\n");
+    printf("I have picked a number between 1 and 100.\n");
+
+    for (attempts = 1; ; attempts++) {
+        printf("Enter your guess: ");
+        scanf("%d", &guess);
+
+        if (guess > number) {
+            printf("Too high! Try again.\n");
+        } else if (guess < number) {
+            printf("Too low! Try again.\n");
+        } else {
+            printf("Congratulations! You guessed the number in %d attempts.\n", attempts);
+            break;
+        }
+    }
 
     return 0;
 }
