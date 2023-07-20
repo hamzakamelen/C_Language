@@ -65,7 +65,6 @@ Decimal          Roman
 10                  x
 1000                m
 50                  l
-https://www.youtube.com/watch?v=oocEj-8u4o8&t=21s
 Example:
 Roman equivalent of 1988 is mdcccclxxxviii
 Roman equivalent of 1525 is mdxxv */

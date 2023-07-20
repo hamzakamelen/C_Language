@@ -82,6 +82,7 @@ int main()
     //--------------------------------
 
     // Task 04" Write a program that take character input terminate when x is pressed
+
     //======From For Loop======
     char userInput;
     int i;
@@ -170,14 +171,16 @@ int main()
 
     // Task:05 Write a Series of first 50 odd and even numbers
     //======From For Loop======
-    for(i=1;i<=50;i++){
+    for (i = 1; i <= 50; i++)
+    {
         if (i % 2 == 0)
         {
             printf("\nThis number is even %d", i);
-        }else{
+        }
+        else
+        {
             printf("\nThis number is odd %d", i);
         }
-        
     }
     //======From While Loop======
     int i = 1;
@@ -237,23 +240,24 @@ int main()
 
     // Task06(2): Print the following series:
     // 2.  1,2,2,3,3,4,4,5,...50
-    
+
     //======From For Loop======
-   int i=1;
-printf("%d,",i);
-i++;
-for(i;i<=50;i++){
-    printf("%d,",i);
-    printf("%d,",i);
-}
+    int i = 1;
+    printf("%d,", i);
+    i++;
+    for (i; i <= 50; i++)
+    {
+        printf("%d,", i);
+        printf("%d,", i);
+    }
     //======From While Loop======
     int i = 1;
     printf("%d", i);
     i++;
     while (i <= 50)
     {
-            printf("\n%d", i);
-            printf("\n%d", i);
+        printf("\n%d", i);
+        printf("\n%d", i);
         i++;
     }
     //======Do While Loop======
@@ -262,10 +266,10 @@ for(i;i<=50;i++){
     i++;
     do
     {
-            printf("\n%d", i);
-            printf("\n%d", i);
-                i++;
-        }while (i <= 50);
+        printf("\n%d", i);
+        printf("\n%d", i);
+        i++;
+    } while (i <= 50);
 
     // Task06(3): Print the following series: Fibonacci series
     // 3.	0,1,1,2,3,5,8,...100
@@ -324,4 +328,4 @@ for(i;i<=50;i++){
         i++;
     } while (i <= n);
     return 0;
-    }
+}
