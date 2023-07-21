@@ -15,7 +15,7 @@ int main()
 
     // Checking Length & Print Length
     length = strlen(name);
-    printf("%d", length);
+    printf("Length is: %d", length);
 
     //--------------------------------------------------------------------------------------
 
@@ -36,9 +36,9 @@ int main()
     puts(name);
 
     printf("What you want to replace? ");
-    scanf("%c", &old);
+    scanf(" %c", &old);
     printf("Replace With? ");
-    scanf("%c", &replace);
+    scanf(" %c", &replace);
     for (int i = 0; i < strlen(name); i++)
     {
         if (name[i] == old)
@@ -192,7 +192,7 @@ int main()
     // Print Addition
     for(i=0;i<6;i++){
         for(j=0;j<6;j++){
-           printf("%d",result[i][j]);
+           printf("%d\t",result[i][j]);
         }
         printf("\n");
     }
@@ -224,7 +224,7 @@ int main()
     // Print Multiplication
     for(i=0;i<3;i++){
         for(j=0;j<3;j++){
-           printf("%d",result[i][j]);
+           printf("%d\t",result[i][j]);
         }
         printf("\n");
     }

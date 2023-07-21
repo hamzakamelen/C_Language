@@ -21,7 +21,7 @@ int main()
         printf("Enter Power Consumed: ");
         scanf("%d", &powerConsumed);
 
-        printf("Customer No: %d\nAmount to be paid: %d\n", customerNo, powerConsumed);
+        printf("Customer No: %d\n:Power Consumed %d\n", customerNo, powerConsumed);
         if (powerConsumed <= 200)
         {
             amountToPaid = powerConsumed * 0.50;

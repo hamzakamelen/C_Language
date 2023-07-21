@@ -67,7 +67,6 @@ int main()
     int i, j = 0, k;
     for (i = 4; i >= 0; i--)
     {
-        printf(" %c", First[i]);
         second[j] = First[i];
         j++;
     }

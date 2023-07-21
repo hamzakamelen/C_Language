@@ -127,9 +127,9 @@ int main()
     //======From For Loop======
     char userInput;
     int count = 0;
+        printf("\nWrite any Character: ");
     for (;;)
     {
-        printf("\nWrite any Character: ");
         userInput = getchar();
         if (userInput == '\n')
         {

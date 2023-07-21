@@ -51,9 +51,9 @@ int main()
 
     printf("\n Price of 15 page %d", FifteenPrice);
 
-    DisPrice = FifteenPrice - 10 %
+    DisPrice = FifteenPrice - 10%
 
-                                  printf("\n Disc Price %d", DisPrice);
+    printf("\n Disc Price %d", DisPrice);
 
     // Task 03: Write a program that can print a table of 9
     printf("\tMultiplication Table of 9\n\n");
@@ -108,4 +108,5 @@ int main()
     printf("\n---------Whole Number is %d", whole);
     frac = Numb - whole;
     printf("\n---------Fraction Number is %f", frac);
+    return 0;
 }
