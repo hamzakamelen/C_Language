@@ -78,24 +78,27 @@ int main()
     // Bubble Sorting
     // Ascending
 
-    int arr[5] = {22, 9, 3, 5, 8};
-    int temp, i, n;
+    int arr[5] = {1, 5, 4, 3, 2};
+    int temp, i, j;
+
     for (i = 0; i < 5; i++)
     {
-        for (n = 0; n < 5; n++)
+        for (j = 0; j < 5 - i - 1; j++)
         {
-            if (arr[n] < arr[n + 1])
+            if (arr[j] > arr[j + 1])
             {
-                temp = arr[n];
-                arr[n] = arr[n + 1];
-                arr[n + 1] = temp;
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
             }
         }
     }
-    int h;
-    for (h = 0; h < 5; h++)
+
+    // For Print / Output-Show
+    int n;
+    for (n = 0; n < 5; n++)
     {
-        printf("\n%d", arr[h]);
+        printf("\n%d", arr[n]);
     }
 
     // Bubble Sorting
