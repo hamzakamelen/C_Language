@@ -14,7 +14,6 @@ int main()
     //         trans[j][i] = matrix[i][j];
     //     }
     // }
-
     // // Print
     // printf("------Transpose of a Matrix-----\n");
     // for (int i = 0; i < 2; i++)
@@ -139,7 +138,6 @@ int main()
     //         arr[i] = arr[i + 1];
     //     }
     // }
-
     // for (int i = 0; i < 4; i++)
     // {
     //     printf("%d ", arr[i]);
@@ -153,7 +151,6 @@ int main()
     //     RevName[j] = Name[i];
     //     j++;
     // }
-
     // for(k=0;k<6;k++){
     //     printf("%c",RevName[k]);
     // }
@@ -226,6 +223,64 @@ int main()
     // // Print After Replacing
     // puts(Name);
 
+    //-----------------Fabonacci Series(0,1,1,2,3,5,...100)-------------------
+    // int first = 0, second = 1, next = 0;
+    // printf("%d,%d ", first, second);
+    // for (int i = 0;; i++)
+    // {
+    //     next = first + second;
+    //     printf("%d,", next);
+    //     if (next > 100)
+    //     {
+    //         break;
+    //     }
+    //     first = second;
+    //     second = next;
+    // }
+
+    //-----------------Factorial of Given Numb----------------------
+    // int factorial=0, given=0;
+    // printf("Enter a Factorial Number ");
+    // scanf("%d", &factorial);
+    // given = factorial;
+    // for (int i = 1; i < given; i++)
+    // {
+    //     factorial *= i;
+    // }
+    // printf("Factorial of %d is %d", given, factorial);
+
+    //-----------------Reverse Number---------------------------
+    // int num=1234,r;
+    // for(;num>0;){
+    //     r=num%10;
+    //     printf("%d",r);
+    //     num/=10;
+    // }
+
+    //------------------Leap Year-----------------------
+    // int year = 1950;
+    // do
+    // {
+    //     if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+    //     {
+    //         printf("%d is a Leap Year\n", year);
+    //     }
+    //     year++;
+    // } while (year <= 2015);
+    
+    //---------------Multiplication Table---------------
+    // int row=1;col;
+    // do{
+    //     col=1;
+    //     do
+    //     {
+    //         printf("%d",row*col);
+    //         col++;
+    //     } while (col<=9);
+    //     printf("\n");
+    //     row++;
+    // }while (row<=9);
+    
     
     return 0;
 }
