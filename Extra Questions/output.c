@@ -48,17 +48,17 @@ The 2D Array is 1
 // strlen(str1) 10
 
 
-// #include <stdio.h>
-// int main(){
-//     int k;
-//     int j=4;
-//     switch (k=j-1)
-//     {
-//     case 3:
-//     printf("Trapped");
-//     break;
-//     default:
-//     printf("Caught");
-//     }
-//     return 0;
-// }
+#include <stdio.h>
+int main(){
+    int k;
+    int j=4;
+    switch (k=j-1)
+    {
+    case 3:
+    printf("Trapped");
+    break;
+    default:
+    printf("Caught");
+    }
+    return 0;
+}
